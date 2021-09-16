@@ -27,6 +27,11 @@ hr {
     max-width: 600px;
     margin:auto;
 }
+.container-center-inline {
+    max-width: 600px;
+    margin:auto;
+    display: inline;
+}
 
 .output_title {
     border: 1px solid black;
@@ -60,17 +65,21 @@ hr {
     
 }
 
+.button-center  {
+    text-align: center;
+}
+
 .images {
     padding: 2rem;
     max-width: 850px;
     display: block;
     margin: auto;
     display: inline;
+    text-align: center;
 }
 .images-logo {
     padding: 2rem;
     max-width: 250px;
-    display: block;
     margin: auto;
     margin-left: 0rem;
     display: inline;
@@ -92,4 +101,5 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+    height: 100px 
 }
